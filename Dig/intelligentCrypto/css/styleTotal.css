@@ -1,0 +1,157 @@
+*{margin: 0; padding: 0; list-style: none; }
+
+/*-------------------------------DESKTOP-------------------------------*/
+@media screen and (min-width: 500px) {
+body{overflow-x: hidden;}
+.gModal{width: 92%; height: 100%; padding: 4%; background-color: #222222de; position: fixed; top: 0; left: 0; visibility: hidden; z-index: 100;}
+.gModal span{position: absolute; top: 20px; left: 1330px; color: #fff;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 2em; }
+.gModal img{width: 100%; height: 100%; object-fit: contain;}
+header{margin: 0 auto; height: 80px; display: block; background-color: #041a30;}
+.logo{margin: 0 42%; display: block; height: 70px; padding: 10px}
+.hamburguerMenu{display: none;}
+.menu{margin: 0 500px; display: ruby;}
+h1{width: 90%; font-family: "Oswald", sans-serif; font-size: 2.4rem; font-weight: 800; margin: 20px auto 60px; line-height: 42px; text-align: center; }
+h2{width: 90%; font-family: "Oswald", sans-serif; font-size: 1.8rem; font-weight: lighter; margin: 20px auto 20px; line-height: 34px;}
+h3{margin: 0 auto; width: 90%; font-family: "Oswald", sans-serif; font-size: 2.3rem; color: #fff;font-weight: lighter;}
+p{width: 90%; margin: 0 auto 5px; font-family: "Roboto"; font-size: 1.05rem;}
+p.rodape{width: 90%; margin: 0 auto 5px; font-family: "Roboto"; color: #fff; font-size: 1rem;}
+a{width: 90%; margin: 0 auto 5px; font-family: "Roboto"; font-size: 1.05rem; color:#7b7777; text-decoration: none;}
+.text{width: 100%; margin: 30px auto 5px; font-family: "Roboto"; font-size: 1.08rem; line-height: 32px; color: #fff;}
+.pfooter{margin: 0 auto; font-size: 0.8rem; color: #fff;position: relative;top: 30px;}
+.display{margin: 0 auto; width: 100%; height: auto;}
+.cabecalho{margin: 0 auto; height: 500px; display: block; background-color: #041a30;}
+.bloco1{margin: 8px 8%; width: 30%; height: auto; display: block; position: absolute;}
+.txtBloco1{margin:90px 10px 0px; width: 80%; color: #fff;}
+.txtBloco2{margin:20px auto 20px; width: 90%; color: #fff;}
+.txtBloco3{margin:20px auto 20px; width: 90%; color: #fff;}
+.bloco2{margin: 210px auto; width: 305px; height: auto; right: 10; display: block;}
+.astro{margin: 80px 115px; width: 675px; height: auto; right: 10; display: block;}
+.desevBlo01{margin: 20px 118px; width: 60px; height: auto; display: block; color: rgb(26,24,54)}
+.imgDesevBlo01{margin: 0 40px; width: 506px; display: block; padding: 90px;}
+.desevBlo02{margin: -356px 730px; width: 40px; height: 390px; display: block; color: rgb(26,24,54)}
+.desevBlo03{margin: -466px 780px; width: 40px; height: 390px; display: block; color: rgb(26,24,54)}
+.txtdesevBlo02Titulo{margin: 42px 20px 30px; width: 333px; display: block; }
+.txtdesevBlo02Texto{margin: 0 auto; width: 400px; display: block; }
+.desenvolvimento{margin: 90px 10px 510px; height: auto; display: block;}
+ul{margin: 0 180px; position: relative; padding: 0 300px; top: -44px; display: inline;}
+li{margin: 0 20px; position: relative; /*! top: -24px; */ display: inline;font-size: 1.2rem;font-style: normal;font-family: arial;text-decoration: none;}
+.bloco{margin: 0 auto; width: 100%; height: auto; display: block;}
+ul{margin: 0 -10px; width: 100%; display: block;}
+.box{margin: 0 auto 4px; padding: 50px 36px; width: 17%; height: 270px; text-align: center; border: 1px solid #06015a; border-radius: 10px; background-color:#222;display: inline-grid;}
+.boxes{margin: 110px auto 4px; padding: 13px 20px; width: 12%; text-align: center; display: inline-block;}
+.boxImage{margin: 0 5px 20px; max-width: 100%; height: auto; text-align: center; border: 1px solid #1e252d; border-radius: 10px; display: inline-block; background-color:#423f3f;}
+.bimage{margin: 0 auto; padding: 5px; max-width: 90%; height: auto; text-align: center; border-radius: 10px;  transition: transform 0.25s ease-in-out;}
+.bimage:hover{transform: scale(1.1);}
+.wpicon{width: 90px; height: auto; margin: 0 auto -20px; text-align: center;position: relative;top: -130px; right: -214px}
+.astro{width: 450px; height: auto; margin: 0 auto 60px; text-align: center; position: relative; top: 74px; right: -190px;}
+.btnew{width: 340px; height: 30px; margin: 40px -20px 20px; padding: 10px 38px; border-radius: 10px solid; border-color: #fff; text-align: center; background-color: rgb(229,140,1); display: block; position: relative; z-index: 5;font-family: "Oswald", sans-serif; font-size: 1.3rem; font-weight: 600; list-style: none; text-decoration-line: none; color: #fff;}
+.btnew:hover{width: 340px; height: 30px; margin: 40px -20px 20px; padding: 10px 38px; border-radius: 10px solid; border-color: #fff; text-align: center; background-color: rgb(178,109,1); display: block; position: relative; z-index: 5;font-family: "Oswald", sans-serif; font-size: 1.3rem; font-weight: 600; list-style: none; text-decoration-line: none; color: #fff;}
+.btn{width: 320px; height: 30px; margin: 0px 530px 100px; padding: 20px 38px; border-radius: 10px solid; border-color: #fff; text-align: center; background-color: rgb(229,140,1); display: block; position: relative; z-index: 5;font-family: "Oswald", sans-serif; font-size: 1.3rem; font-weight: 600; list-style: none; text-decoration-line: none; color: #fff;}
+.btn:hover{width: 320px; height: 30px; margin: 0px 530px 100px; padding: 20px 38px; border-radius: 10px solid; border-color: #fff; text-align: center; background-color: rgb(178,109,1); display: block; position: relative; z-index: 5;font-family: "Oswald", sans-serif; font-size: 1.3rem; font-weight: 600; list-style: none; text-decoration-line: none; color: #fff;}
+footer{margin: 0 auto; width: 100%; height: auto; text-align: left; background-color: rgba(26,24,54,1);}
+
+/* Apenas o container */
+.container {display: flex;align-items: center;justify-content: center;min-width: 100%;min-height: 100%;}
+  
+/* Aqui comença o Toggler On/Off */
+.toggle-wrapper {display: flex;align-items: center;}
+  
+/* Texto que decidi adicionar como exemplo */
+.toggle-wrapper .description {margin-left: 1.5rem; font-weight: bold; letter-spacing: 0.2rem; font-size: 1.4rem; font-family: Arial, Helvetica, sans-serif;}
+  
+/* Esconde o checkbox */
+.switch > .hidden-toggle {display: none;}
+/* Caixinha onde o botão desliza */
+.switch > .slider {background: #e0e2db; border: 0.1rem solid #bbb; cursor: pointer; border-radius: 2rem; transition: all 300ms ease-in-out; width: 4rem; height: 2rem; position: relative; box-shadow: inset -0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.1); Top: -86px; Left: 590px;}
+  /* O botão redondinho */
+  .switch > .slider > .button {content: ""; position: absolute; width: 1rem; height: 1rem; background: #189914; top: 0.4rem; left: 0.4rem; transition: all 300ms ease-in-out; border-radius: 50%; z-index: 2; box-shadow: inset -0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);}
+  
+  /* Texto ON ou OFF (começa off) */
+  .switch > .slider:after {position: absolute; top: 50%; right: 1rem; transform: translate(0, -50%); font-size: 0.8rem; line-height: 1.4rem; color: #444; font-weight: bold; z-index: 1; transition: all 300ms ease-in-out; content: "BRA";  font-family: Arial, Helvetica, sans-serif;}
+    
+  /* Slider ON */
+  .switch > .hidden-toggle:checked ~ .slider {background: #f71f1f; box-shadow: inset 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(50, 0, 150, 0.2);}
+  
+  /* Botão ON */
+  .switch > .hidden-toggle:checked ~ .slider > .button { left: 2.8rem; box-shadow: inset 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2); background: #e0e2db;}
+  
+  /* Texto ON */
+  .switch > .hidden-toggle:checked ~ .slider:after {right: 1.4rem; color: #f1f1ff; content: "ENG";}
+}
+
+/*-------------------------------MOBILE-------------------------------*/
+@media screen and (max-width: 400px) {
+body{overflow-x: hidden;}
+.gModal{width: 92%; height: 100%; padding: 4%; background-color: #222222de; position: fixed; top: 0; left: 0; visibility: hidden; z-index: 100;}
+.gModal span{position: absolute; top: 20px; left: 1330px; color: #fff;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 2em; }
+.gModal img{width: 100%; height: 100%; object-fit: contain;}
+header{margin: 0 auto; height: 60px; display: block; background-color: #041a30;}
+.logo{margin: 0 auto; height: 40px;}
+.hamburguerMenu{display: none;}
+.menu{margin: 0 500px; display: ruby;}
+h1{width: 90%; font-family: "Oswald", sans-serif; font-size: 2.4rem; font-weight: 800; margin: 20px auto 60px; line-height: 42px; text-align: center; }
+h2{width: 90%; font-family: "Oswald", sans-serif; font-size: 1.8rem; font-weight: lighter; margin: 20px auto 20px; line-height: 34px;}
+h3{margin: 0 auto; width: 90%; font-family: "Oswald", sans-serif; font-size: 2.3rem; color: #fff;font-weight: lighter;}
+p{width: 90%; margin: 0 auto 5px; font-family: "Roboto"; font-size: 1.05rem;}
+a{width: 90%; margin: 0 auto 5px; font-family: "Roboto"; font-size: 1.05rem; color:#7b7777; text-decoration: none;}
+.text{width: 100%; margin: 30px auto 5px; font-family: "Roboto"; font-size: 1.08rem; line-height: 32px; color: #fff; text-align: center;}
+.pfooter{margin: 0 auto; font-size: 0.8rem; color: #fff;position: relative;top: 30px;}
+.display{margin: 0 auto; width: 100%; height: auto;}
+.cabecalho{margin: 0 auto; height: 450px; display: block; background-color: #1c0084;}
+.bloco1{margin: 0 8%; width: 30%; height: auto; display: block; position: relative}
+.txtBloco1{margin:40px 10px 0px; width: 80%; color: #fff;padding: 84px 0;}
+.txtBloco2{margin:-69px auto 20px; width: 90%; color: #fff;}
+.txtBloco3{margin:-50px auto 20px; width: 90%; color: #fff; text-align: center;}
+.bloco2{margin: -380px auto; width: 305px; height: auto; right: 10; display: block;}
+.astro{margin: 80px 115px; width: 675px; height: auto; right: 10; display: block;}
+.desevBlo01{margin: 20px 50px; width: 60px; height: auto; display: block;}
+.imgDesevBlo01{margin: 0 -30px; width: 600px; display: block; padding: 90px;}
+.desevBlo02{margin: -450px 780px; width: 40px; height: 390px; display: block;}
+.txtdesevBlo02Titulo{margin: 0 20px 30px; width: 333px; display: block; }
+.txtdesevBlo02Texto{margin: 0 auto; width: 400px; display: block; text-align: center;}
+.desenvolvimento{margin: 0 auto 510px; height: auto; display: block;}
+ul{margin: 0 180px; position: relative; padding: 0 300px; top: -44px; display: inline;}
+li{margin: 0 20px; position: relative; /*! top: -24px; */ display: inline;font-size: 1.2rem;font-style: normal;font-family: arial;text-decoration: none;}
+.bloco{margin: 0 auto; width: 100%; height: auto; display: block;}
+ul{margin: 0 -230px; width: 100%; display: block;}
+.box{margin: 0 auto 4px; padding: 50px 36px; width: 17%; height: 270px; text-align: center; border: 1px solid #06015a; border-radius: 10px; background-color:#222;display: inline-grid;}
+.boxImage{margin: 0 5px 20px; max-width: 100%; height: auto; text-align: center; border: 1px solid #1e252d; border-radius: 10px; display: inline-block; background-color:#423f3f;}
+.bimage{margin: 0 auto; padding: 5px; max-width: 90%; height: auto; text-align: center; border-radius: 10px;  transition: transform 0.25s ease-in-out;}
+.bimage:hover{transform: scale(1.1);}
+.wpicon{width: 90px; height: auto; margin: 0 auto -20px; text-align: center;position: relative;top: -130px; right: -214px}
+.astro{width: 490px; height: auto; margin: 0 auto 60px; text-align: center; position: relative; top: 99px; right: -190px;}
+.btn{width: 160px; height: 30px; margin: -12px 570px 20px; padding: 10px 38px; border-radius: 10px solid; border-color: #fff; text-align: center; background-color: #069206; display: block; position: absolute; z-index: 5;font-family: "Oswald", sans-serif; font-size: 1.3rem; font-weight: 600; list-style: none; text-decoration-line: none; color: #fff;}
+.btn:hover{width: 160px; height: 30px; margin: -52px 570px 20px; padding: 10px 38px; border-radius: 10px solid; border-color: #fff; text-align: center; background-color: #064406; display: block; position: absolute; z-index: 5;font-family: "Oswald", sans-serif; font-size: 1.3rem; font-weight: 600; list-style: none; text-decoration-line: none; color: #fff;}
+footer{margin: 144px auto -20px; width: 100%; height: 60px; text-align: center; background-color: #222;}
+
+/* Apenas o container */
+.container {display: flex;align-items: center;justify-content: center;min-width: 100%;min-height: 100%;}
+  
+/* Aqui comença o Toggler On/Off */
+.toggle-wrapper {display: flex;align-items: center;}
+  
+/* Texto que decidi adicionar como exemplo */
+.toggle-wrapper .description {margin-left: 1.5rem; font-weight: bold; letter-spacing: 0.2rem; font-size: 1.4rem; font-family: Arial, Helvetica, sans-serif;}
+  
+/* Esconde o checkbox */
+.switch > .hidden-toggle {display: none;}
+/* Caixinha onde o botão desliza */
+.switch > .slider {background: #e0e2db; border: 0.1rem solid #bbb; cursor: pointer; border-radius: 2rem; transition: all 300ms ease-in-out; width: 4rem; height: 2rem; position: relative; box-shadow: inset -0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.1); Top: -46px; Left: 120px;}
+  /* O botão redondinho */
+  .switch > .slider > .button {content: ""; position: absolute; width: 1rem; height: 1rem; background: #189914; top: 0.4rem; left: 0.4rem; transition: all 300ms ease-in-out; border-radius: 50%; z-index: 2; box-shadow: inset -0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);}
+  
+  /* Texto ON ou OFF (começa off) */
+  .switch > .slider:after {position: absolute; top: 50%; right: 1rem; transform: translate(0, -50%); font-size: 0.8rem; line-height: 1.4rem; color: #444; font-weight: bold; z-index: 1; transition: all 300ms ease-in-out; content: "BRA";  font-family: Arial, Helvetica, sans-serif;}
+    
+  /* Slider ON */
+  .switch > .hidden-toggle:checked ~ .slider {background: #f71f1f; box-shadow: inset 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(50, 0, 150, 0.2);}
+  
+  /* Botão ON */
+  .switch > .hidden-toggle:checked ~ .slider > .button { left: 2.8rem; box-shadow: inset 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2); background: #e0e2db;}
+  
+  /* Texto ON */
+  .switch > .hidden-toggle:checked ~ .slider:after {right: 1.4rem; color: #f1f1ff; content: "ENG";}
+
+
+}
+    
